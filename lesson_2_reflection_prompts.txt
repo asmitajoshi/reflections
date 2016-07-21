@@ -3,9 +3,11 @@ What happens when you initialize a repository? Why do you need to do it?
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+staging area prepares files for staging. It gives you the exact files and changes that will be checked in. 
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+If we do a git diff --staged, we can see the exact changes between staged and repository. We can also see that we are commiting exactly what we are seeing in the staged diff. 
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
